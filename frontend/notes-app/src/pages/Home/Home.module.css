@@ -1,0 +1,48 @@
+.container {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  
+  .notesGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin-top: 32px;
+  }
+  
+  .addButton {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    background-color: #2b85ff;
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .addButton:hover {
+    background-color: #1d6fe5;
+  }
+  
+  .addIcon {
+    font-size: 32px;
+    color: white;
+  }
+  
+  .modalContent {
+    width: 50%;
+    height: 75%;
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 80px auto;
+    overflow-y: auto;
+  }
+  

@@ -1,0 +1,91 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .closeButton {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -1rem;
+    right: -1rem;
+    background-color: transparent;
+    transition: background-color 0.2s ease;
+    cursor: pointer;
+  }
+  
+  .closeButton:hover {
+    background-color: #e2e8f0;
+  }
+  
+  .inputGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  
+  .inputLabel {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #334155;
+  }
+  
+  .inputField {
+    font-size: 1.125rem;
+    padding: 0.5rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 0.5rem;
+    outline: none;
+    background-color: #f8fafc;
+    color: #1e293b;
+  }
+  
+  .inputField:focus {
+    border-color: #3b82f6;
+    background-color: #ffffff;
+  }
+  
+  .textArea {
+    font-size: 1rem;
+    padding: 0.75rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 0.5rem;
+    outline: none;
+    background-color: #f8fafc;
+    color: #1e293b;
+    resize: vertical;
+  }
+  
+  .textArea:focus {
+    border-color: #3b82f6;
+    background-color: #ffffff;
+  }
+  
+  .errorText {
+    color: #ef4444;
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+  }
+  
+  .saveButton {
+    background-color: #3b82f6;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    margin-top: 1rem;
+  }
+  
+  .saveButton:hover {
+    background-color: #2563eb;
+  }
+  

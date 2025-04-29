@@ -1,0 +1,146 @@
+/* .container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  .tag {
+    background-color: #e2e8f0;
+    padding: 0.4rem 0.6rem;
+    border-radius: 999px;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 0.875rem;
+    color: #1e293b;
+  }
+  
+  .removeIcon {
+    cursor: pointer;
+    color: #475569;
+  }
+  
+  .inputGroup {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .inputGroup input {
+    flex: 1;
+    /* width: 20px; 
+    padding: 0.5rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 0.5rem;
+    outline: none;
+    background-color: #f8fafc;
+    color: #1e293b;
+  }
+  
+  .inputGroup button {
+    padding: 0.5rem;
+    border: 1px solid #3b82f6;
+    background-color: transparent;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    color: #3b82f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .inputGroup button:hover {
+    background-color: #e0f2fe;
+  }
+   */
+
+   .container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    padding: 0.5rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.75rem;
+    background-color: #f9fafb;
+  }
+  
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  .tag {
+    background-color: #e2e8f0;
+    padding: 0.4rem 0.75rem;
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    font-size: 0.875rem;
+    color: #1e293b;
+    font-weight: 500;
+  }
+  
+  .removeIcon {
+    margin-left: 0.5rem;
+    cursor: pointer;
+    color: #475569;
+    transition: color 0.2s ease;
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .removeIcon:hover {
+    color: #ef4444;
+  }
+  
+  .inputGroup {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .inputGroup input {
+    flex: 1;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 0.5rem;
+    outline: none;
+    background-color: #f8fafc;
+    color: #1e293b;
+    font-size: 0.875rem;
+    transition: border-color 0.2s ease;
+  }
+  
+  .inputGroup input:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+  }
+  
+  .inputGroup button {
+    padding: 0.5rem;
+    border: 1px solid #3b82f6;
+    background-color: transparent;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    color: #3b82f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+  }
+  
+  .inputGroup button:hover {
+    background-color: #e0f2fe;
+    border-color: #2563eb;
+    color: #2563eb;
+  }
+  

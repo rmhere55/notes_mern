@@ -1,0 +1,36 @@
+.searchBar {
+    width: 20rem; /* equivalent to w-80 */
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    background-color: #f1f5f9; /* slate-100 */
+    border-radius: 0.375rem; /* rounded-md */
+  }
+  
+  .input {
+    width: 100%;
+    font-size: 0.75rem; /* text-xs */
+    background-color: transparent;
+    padding: 11px 0;
+    outline: none;
+    border: none;
+  }
+  
+  .clearIcon {
+    color: #64748b; /* slate-500 */
+    cursor: pointer;
+    margin-right: 0.75rem;
+    transition: color 0.2s ease;
+  }
+  
+  .clearIcon:hover {
+    color: #000000;
+  }
+  
+  .searchIcon {
+    color: #94a3b8; /* slate-400 */
+    font-size: 1.5rem; /* text-2xl */
+    margin-left: 0.5rem;
+    cursor: pointer;
+  }
+  

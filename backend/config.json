@@ -1,0 +1,6 @@
+{
+    
+  "MONGODB_SERVER_URL": 
+  "mongodb+srv://testuser:testuser123@notesapp.ceipi.mongodb.net/?retryWrites=true&w=majority&appName=notesapp"
+}
+
